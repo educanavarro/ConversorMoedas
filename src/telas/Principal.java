@@ -114,12 +114,13 @@ public class Principal extends javax.swing.JFrame {
     double euro = 4.58;
     double valor = Double.parseDouble (txtValor.getText());
       
-       valor=valor/dolar;
+       valor = valor / dolar;
        txtDolar.setText(String.valueOf (formato.format(valor)));
        
        valor = Double.parseDouble (txtValor.getText());
-       valor=valor/euro;
+       valor = valor / euro;
        txtEuro.setText(String.valueOf (formato.format(valor)));
+       
     }//GEN-LAST:event_btConverterActionPerformed
 
 
